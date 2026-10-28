@@ -1,0 +1,39 @@
+<section id="data" data-transition="fade" style="background:#2A2140;color:#FAF6EC;font-family:'Host Grotesk', sans-serif;padding:128px 128px 160px;display:flex;flex-direction:column;gap:96px">
+<div style="display:flex;flex-direction:column;gap:16px">
+<p style="font-family:'Silkscreen', monospace;font-size:24px;letter-spacing:2px;color:#FF5A36">UNDER THE HOOD</p>
+<h2 style="font-size:64px;font-weight:700;line-height:1.1;color:#FAF6EC">How the data flows</h2>
+</div>
+<div style="display:flex;align-items:stretch;gap:16px">
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#352B50;border:1px solid #4A3F68;border-radius:20px;padding:32px">
+<p style="font-family:'Silkscreen', monospace;font-size:24px;color:#FF5A36">01 COLLECT</p>
+<h3 style="font-size:36px;font-weight:700;line-height:1.2;color:#FAF6EC">AI agents</h3>
+<p style="font-size:24px;line-height:1.4;color:#CFC7E6">Gather investor, partner and portfolio records from public sources</p>
+</div>
+<x-connector head="end" style="width:64px;height:2px;align-self:center;color:#FF5A36;border-width:3px"></x-connector>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#352B50;border:1px solid #4A3F68;border-radius:20px;padding:32px">
+<p style="font-family:'Silkscreen', monospace;font-size:24px;color:#FF5A36">02 IMPORT</p>
+<h3 style="font-size:36px;font-weight:700;line-height:1.2;color:#FAF6EC">Make import</h3>
+<p style="font-family:'Host Grotesk', sans-serif;font-size:24px;line-height:1.4;color:#CFC7E6">Cleans and maps records into the database</p>
+</div>
+<x-connector head="end" style="width:64px;height:2px;align-self:center;color:#FF5A36;border-width:3px"></x-connector>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#352B50;border:1px solid #4A3F68;border-radius:20px;padding:32px">
+<p style="font-family:'Silkscreen', monospace;font-size:24px;color:#FF5A36">03 STORE</p>
+<h3 style="font-size:36px;font-weight:700;line-height:1.2;color:#FAF6EC">Supabase</h3>
+<p style="font-size:24px;line-height:1.4;color:#CFC7E6">Investors, ratings and debriefs</p>
+</div>
+<x-connector head="end" style="width:64px;height:2px;align-self:center;color:#FF5A36;border-width:3px"></x-connector>
+<div style="flex:1;display:flex;flex-direction:column;gap:12px;background:#5B4BDB;border:1px solid #5B4BDB;border-radius:20px;padding:32px">
+<p style="font-family:'Silkscreen', monospace;font-size:24px;color:#FAF6EC">04 PRODUCT</p>
+<h3 style="font-size:36px;font-weight:700;line-height:1.2;color:#FAF6EC">Raise app</h3>
+<p style="font-size:24px;line-height:1.4;color:#FAF6EC">Map, matching and profiles</p>
+</div>
+</div>
+<div style="display:flex;gap:16px;flex-wrap:wrap">
+<p style="font-size:24px;color:#FAF6EC;background:rgba(250,246,236,0.08);border:1px solid #4A3F68;border-radius:999px;padding:12px 28px">London first</p>
+<p style="font-size:24px;color:#FAF6EC;background:rgba(250,246,236,0.08);border:1px solid #4A3F68;border-radius:999px;padding:12px 28px">281 London investors mapped</p>
+<p style="font-size:24px;color:#FAF6EC;background:rgba(250,246,236,0.08);border:1px solid #4A3F68;border-radius:999px;padding:12px 28px">Demo runs on real data</p>
+</div>
+<p style="position:absolute;left:128px;bottom:64px;width:400px;font-family:'Silkscreen', monospace;font-size:24px;color:#CFC7E6">RAISE</p>
+<p style="position:absolute;right:128px;bottom:64px;width:200px;font-size:24px;text-align:right;color:#CFC7E6">08</p>
+<aside>[1:50] Under the hood, AI agents collect public investor records, Make loads them into Supabase, and the app reads from there. The demo runs on real data: 281 London investors.</aside>
+</section>
